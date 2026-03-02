@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 sezona-2026</title>
+    <link rel="icon" type="image/png" href="firefoc.png" sizes="16x16">
+    <!--google fontovi-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <!--pocetak code-a-->
+</head>
+<style>
+    body{
+        background-color: rgb(141, 28, 28);
+        scroll-padding: initial;
+    }
+    h1{
+        font-family: "BBH Bartle", sans-serif;
+        font-size: 150px;
+        font-style: normal;
+        color:rgb(210, 168, 42)
+    }
+    .card{
+        position: absolute;
+        width: 400px;
+        height: 1000px;
+        left:1200px;
+        top:400px;
+    }
+    h3{
+        font-family: "Roboto", sans-serif;
+        position:absolute;
+        left: 30px;
+        color:aliceblue;
+    }
+    h2{
+        font-family: "Archivo Black", sans-serif;
+        color: #ebdddd;
+        font-size: 30px;
+        
+    }
+
+    .ferrari-card {
+  background: #111;
+  border: 2px solid #c00000;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  position: relative;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.ferrari-card:hover {
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+}
+
+.ferrari-card h2 {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.ferrari-card input {
+  display: none;
+}
+
+.more-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+#ferrari-toggle:checked ~ .more-text {
+  max-height: 200px;
+}
+
+.see-btn {
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #ff0000;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.see-btn::after {
+  content: "SEE MORE ▸";
+}
+
+#ferrari-toggle:checked ~ .see-btn::after {
+  content: "SEE LESS ▾";
+}
+
+.see-btn:hover {
+  text-shadow: 0 0 8px red;
+}
+
+.f1-black {
+  position: relative;
+  background: #000;
+  padding: 120px 0;
+  isolation: isolate; /* bitno za layering */
+}
+
+/* GORNJI FADE */
+.f1-black::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+
+  background: linear-gradient(
+    to bottom,
+    #991111 0%,
+    rgba(153, 17, 17, 0.8) 40%,
+    rgba(0, 0, 0, 0.6) 80%,
+    #000 100%
+  );
+
+  z-index: -1;
+}
+
+/* DONJI FADE */
+.f1-black::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+
+  background: linear-gradient(
+    to top,
+    #991111 0%,
+    rgba(153, 17, 17, 0.8) 40%,
+    rgba(0, 0, 0, 0.6) 80%,
+    #000 100%
+  );
+
+  z-index: -1;
+}
+
+.f1-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+
+
+
+</style>
+
+<body>
+<h1>FORMULA1 SEZONA 2026</h1>
+<div class="card">
+    <img src="ferrari(1).png" alt="ferrari">
+    <div class="info">
+        <h3>Logo-"Scuderia Ferrari"</h3>
+    </div>
+</div>
+<section class="f1-black">
+  <div class="content">
+<h2>-Ova sezona nam donosi dosta novih stvari i jako nam menja svet formule 1. </h2>
+<h2>1.Nova pravila i novi bolidi</h2>
+<h2>Ulazi potpuno nova tehnička era bolida — novi aerodinamički i pogonski propisi.
+
+Bolidima je cilj da budu brži i efikasniji uz drugačiji pristup aerodinamici.
+
+DRS (Drag Reduction System), koji se koristio do sada da bi vozači lakše preticali, bi mogao biti ukinut ili zamenjen novim sistemima za privremeni dodatak snage (npr. „override“ boost).
+
+Aktivna aerodinamika (delovi koji se menjaju tokom vožnje zbog uslova) postaje značajnija — videli smo nove koncepte kod timova poput Ferrarija.</h2>
+<h2>2. Novi timovi i motori</h2>
+<h2>U F1 ulaze novi proizvođači i timovi:
+
+Audi F1 Team — nemački brend kao punopravni tim i proizvođač motora.
+
+Cadillac Racing — novi tim koji povećava broj ekipa na 11, najviše od 2016.
+
+Red Bull Racing i Scuderia Ferrari i drugi sada koriste nove pogonske jedinice ili partnerstva (npr. Red Bull-Ford).</h2>
+<h2>3. Veća uloga električne snage i održivi sistemi</h2>
+<h2>Bolidi imaju više električne snage i veći fokus na hibridni rad motora.
+
+Uvedeno je 100% održivo gorivo, što je veliki korak ka ekološki odgovornijoj Formuli 1.</h2>
+<h2>4. Finansijska i tehnička pravila</h2>
+<h2>Budžetski limit timovima se menja — formalno je viši (215 miliona USD) ali je način obračuna drugačiji, sa većom transparentnošću.
+
+FIA radi na zatvaranju određenih tehničkih „rupe“ u pravilima kako bi svi proizvođači pošteno učestvovali.</h2>
+<h2>5. Kalendar i termini</h2>
+<h2>Sezona 2026 počinje 6. marta Velikom nagradom Australije i traje do decembra.
+
+Biće 24 trke tokom cele sezone — puno akcije tokom skoro cele godine.
+
+RTL TV ima prava emitovanja za više trka i treninga u ovoj i narednim sezonama.</h2>
+<h2>6. Komentari iz paddock-a i debata o novim pravilima</h2>
+<h2>Vozači i timovi imaju različite reakcije na pravila — neki smatraju da je takmičenje složenije nego ranije.
+
+FIA zasad neće odmah menjati nova pravila uprkos kritikama, ali prate povratne informacije iz testiranja.</h2>
+ </div>
+</section>
+<div class="ferrari-card">
+  <input type="checkbox" id="ferrari-toggle">
+
+  <h2>SLIKE BOLIDA</h2>
+
+  <p class="preview">
+    Nova era počinje sa unapređenom šasijom i agresivnim aero paketom.A ako hoces da vidis to na bolidima klikni na link ispod
+  </p>
+
+  <div class="more-text">
+    <p>
+      <a href="slike.html">SLIKE BOLIDA</a>
+    </p>
+  </div>
+
+  <label for="ferrari-toggle" class="see-btn"></label>
+</div>
+
+
+</body>
+</html>
